@@ -1,11 +1,40 @@
 body{
-    font-family: 'Abril Fatface', cursive;
-font-family: 'Vidaloka', serif;
+    font-family: 'Acme', sans-serif;
+    margin-left: 150px;
+    margin-top: 100px;
 }
 
 h1{
     font-size: 60px;
-    font-family: 'Yeseva One', cursive;
-    margin-bottom: 30px;
-    text-shadow: 1px 1px 2px #999;
+    
+}
+span{
+    color: orange;
+}
+a{
+    background-color: red;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-right: 30px;
+}
+.half-width img{
+    width: 70%;
+    padding-left: 50px;
+}
+.heading{
+    border-left: 5px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+p{
+    padding-bottom: 20px;
+    text-align: justify;
 }
