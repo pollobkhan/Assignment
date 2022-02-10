@@ -2,6 +2,7 @@ body{
     font-family: 'Acme', sans-serif;
     margin-left: 150px;
     margin-top: 100px;
+    margin-right: 150px;
 }
 
 h1{
@@ -26,8 +27,8 @@ a{
     padding-right: 30px;
 }
 .half-width img{
-    width: 70%;
-    padding-left: 50px;
+    width: 80%;
+    padding-left: 120px;
 }
 .heading{
     border-left: 5px solid black;
@@ -37,4 +38,62 @@ a{
 p{
     padding-bottom: 20px;
     text-align: justify;
+}
+#main-mission{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.mission-container{
+    display: flex;
+    gap: 20px;
+}
+.mission-width{
+    width: 33%;
+    
+}
+.mission-width img{
+width: 50%;
+}
+#mission{
+    background-color: rgba(137, 43, 226, 0.356);
+    border-radius: 30px;
+    padding: 2%;
+}
+#vision{
+    background-color: rgba(0, 255, 255, 0.301);
+    border-radius: 30px;
+    padding: 2%;
+}
+#goal{
+    background-color: rgba(255, 127, 80, 0.363);
+    border-radius: 30px;
+    padding: 2%;
+}
+.develop{
+    display: flex;
+    padding-top: 100px;
+}
+.dev-img img{
+    width: 80%;
+}
+.dev-img{
+    width: 40%;
+}
+.dev-info{
+    width: 60%;
+}
+.community{
+    padding-top: 100px;
+    display: flex;
+}
+.com-info{
+    width: 60%;
+}
+.com-img{
+    width: 40%;
+}
+.com-img img{
+    width: 80%;
+    padding-left: 100px;
 }
