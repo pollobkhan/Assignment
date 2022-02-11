@@ -18,6 +18,7 @@ a{
     padding: 15px 20px 15px 20px;
     text-decoration: none;
     border-radius: 5px;
+    transition-duration: 0.4s; 
 }
 .container{
     display: flex;
@@ -96,4 +97,9 @@ width: 50%;
 .com-img img{
     width: 80%;
     padding-left: 100px;
+}
+a:hover{
+    color: #FF5959;
+        background: transparent;
+        border: 2px solid;
 }
