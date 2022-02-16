@@ -39,6 +39,7 @@ a{
 p{
     padding-bottom: 20px;
     text-align: justify;
+    font-size: 20px;
 }
 #main-mission{
     text-align: center;
@@ -105,4 +106,29 @@ a:hover{
 }
 #corona{
     text-align: center;
+    border-bottom: 3px solid;
+}
+.corona{
+    display: flex;
+
+}
+#img{
+    width: 50%;
+}
+#infoo{
+    width: 50%;
+    padding-top: 100px;
+}
+#img img{
+    width: 80%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
